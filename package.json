@@ -1,6 +1,7 @@
 {
   "name": "mini-projeto-pokedex",
   "version": "1.0.0",
+  "type": "module",
   "description": "Criando pasta, repositório e fazendo primeiro commmit para teste.",
   "homepage": "https://github.com/cel99952063/-M1S08-Mini-Projeto-Avaliativo#readme",
   "bugs": {
@@ -12,11 +13,11 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "src/main.ts",
   "scripts": {
     "dev": "tsx src/main.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "tsx src/teste.ts"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",

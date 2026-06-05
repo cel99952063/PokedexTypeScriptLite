@@ -1,4 +1,4 @@
-import { PokemonApiResponse, PokemonResumo } from '../models/Pokemon';
+import type { PokemonApiResponse, PokemonResumo } from '../models/Pokemon.js';
 
 // Buscar Pokemon na API (RF04)
 export async function buscarPokemon(nomeOuId: string | number): Promise<PokemonResumo | null> {
