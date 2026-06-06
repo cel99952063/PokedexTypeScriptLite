@@ -4,8 +4,8 @@ async function testarBusca() {
   console.log("--- Iniciando teste da PokeAPI ---");
 
   // Teste 1: Buscar um Pokémon válido
-  const pikachu = await buscarPokemon("pikachu");
-  console.log("Resultado Pikachu:", pikachu);
+  const pokemon = await buscarPokemon(33);
+  console.log(`Resultado Pokemon: ${pokemon?.nome}`, pokemon);
 
   // Teste 2: Buscar um Pokémon que não existe (para validar o RF05)
   const erro = await buscarPokemon("pokemon-que-nao-existe");
