@@ -1,15 +1,15 @@
 {
-  "name": "mini-projeto-pokedex",
+  "name": "pokedex-typescript-lite",
   "version": "1.0.0",
   "type": "module",
   "description": "Criando pasta, repositório e fazendo primeiro commmit para teste.",
-  "homepage": "https://github.com/cel99952063/-M1S08-Mini-Projeto-Avaliativo#readme",
+  "homepage": "https://github.com/cel99952063/PokedexTypeScriptLite#readme",
   "bugs": {
-    "url": "https://github.com/cel99952063/-M1S08-Mini-Projeto-Avaliativo/issues"
+    "url": "https://github.com/cel99952063/PokedexTypeScriptLite/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cel99952063/-M1S08-Mini-Projeto-Avaliativo.git"
+    "url": "git+https://github.com/cel99952063/PokedexTypeScriptLite.git"
   },
   "license": "ISC",
   "author": "",
