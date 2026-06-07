@@ -1,0 +1,1 @@
+{"version":3,"file":"CatalogoPokemon.d.ts","sourceRoot":"","sources":["../src/CatalogoPokemon.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,qBAAqB,CAAC;AAEzD,qBAAa,eAAe;IAG1B,OAAO,CAAC,QAAQ,CAAuB;IAGvC,SAAS,CAAC,OAAO,EAAE,aAAa,GAAG,IAAI;IAevC,MAAM,IAAI,IAAI;IAiBd,OAAO,CAAC,EAAE,EAAE,MAAM,GAAG,IAAI;CAa1B"}

@@ -33,6 +33,13 @@ async function main() {
   
   //Lista novamente (deve aparecer Charmander)
   catalogo.listar();
+
+  //Remove o ID 4 (Charmander)
+  catalogo.remover(4);
+  
+  //Lista novamente (deve aparecer AVISO VAZIO)
+  catalogo.listar();
 }
+
 
 main();
