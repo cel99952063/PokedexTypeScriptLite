@@ -1,9 +1,9 @@
 # Pokédex TypeScript Lite
 
-## Sobre o projeto
+## Sobre o projeto:
 O Pokédex TypeScript Lite é uma aplicação simples em Node.js com TypeScript que consulta dados de Pokémon na PokeAPI e organiza alguns resultados em um catálogo local durante a execução do programa.
 
-## Objetivo
+## Objetivo:
 Praticar os principais conceitos do Módulo 01:
 * Node.js;
 * JavaScript no back-end;
@@ -22,7 +22,7 @@ Praticar os principais conceitos do Módulo 01:
 * GitFlow;
 * Kanban.
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas:
 * Node.js
 * TypeScript
 * TSX
@@ -30,13 +30,13 @@ Praticar os principais conceitos do Módulo 01:
 * Git
 * GitHub
 
-## Pré-requisitos
+## Pré-requisitos:
 Antes de executar o projeto, é necessário ter instalado:
 * Node.js
 * npm
 * Git
 
-## Como instalar
+## Como instalar:
 Clone o repositório:
 ```bash
 git clone https://github.com/cel99952063/PokedexTypeScriptLite.git
@@ -47,13 +47,11 @@ cd pokedex-typescript-lite
 Instale as dependências:
 npm install
 
-Como executar
+## Como executar:
 Execute o projeto em ambiente de desenvolvimento:
 npm run dev
 
-Estrutura do projeto
-pokedex-typescript-lite/
-## Estrutura do projeto
+Estrutura do projeto:
 PokedexTypeScriptLite/
 ├── dist/
 ├── node_modules/
@@ -71,7 +69,7 @@ PokedexTypeScriptLite/
 ├── README.md
 └── tsconfig.json
 
-Funcionalidades
+Funcionalidades:
 - Buscar Pokémon por nome ou ID
 - Tratar erro de Pokémon inexistente
 - Transformar resposta da API em objeto simplificado
@@ -86,14 +84,13 @@ Funcionalidades
 Entrada testada:
 pikachu
 Saída obtida:
-[OK] Pokémon encontrado: pikachu
-#25 - pikachu | Tipos: electric | Altura: 4 | Peso: 60
+[OK] pikachu adicionado ao catálogo.
 
 Busca inválida
 Entrada testada:
 pokemon-inexistente
 Saída obtida:
-[ERRO] Pokémon não encontrado.
+[ERRO] Pokemon não encontrado: pokemon-inexistente
 
 Duplicidade
 Entrada testada:
@@ -107,9 +104,15 @@ remover ID 25
 Saída obtida:
 [OK] Pokémon removido do catálogo.
 
+Catalogo vazio
+Entrada testada:
+listar
+Saída obtida:
+[AVISO] Catálogo vazio.
 
 
-Conceitos aplicados
+
+Conceitos aplicados:
 
 TypeScript
 A tipagem estática foi aplicada em todo o escopo do projeto para prevenir erros de consistência de dados em tempo de compilação. Tipamos variáveis primitivas (como id: number e nome: string), assinaturas de funções com parâmetros obrigatórios e o retorno assíncrono utilizando o tipo nativo Promise<PokemonResumo | null>.
@@ -142,18 +145,18 @@ Classe CatalogoPokemon
 A classe foi criada no arquivo CatalogoPokemon.ts com o modificador de acesso private para encapsular e proteger a coleção interna pokemons de modificações diretas fora do escopo da classe. Foram expostos os métodos públicos com comportamentos específicos: adicionar (com validação anti-duplicidade), listar (com verificação de lista vazia) e remover (com validação de existência do ID).
 
 
-Organização do Kanban
+Organização do Kanban:
 Link do Kanban: https://trello.com/invite/b/6a1f5e9495602a6cde1625c6/ATTIac819496f251706315c6067d74e2186d03520326/kanban-pokedex
 
 
-Branches utilizadas
+Branches utilizadas:
 main
 develop
 feat/pokedex
 docs/readme
 
 
-Melhorias futuras
+Melhorias futuras:
 Criar menu interativo no terminal
 Salvar catálogo em arquivo JSON
 Exibir HP, ataque e defesa
